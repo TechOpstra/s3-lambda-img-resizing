@@ -1,3 +1,4 @@
+region                 = "us-east-1"
 original_bucket_name   = "image-non-sized-1"
 processed_bucket_name  = "image-sized-1"
 lambda_function_name   = "image_processor"
