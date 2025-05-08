@@ -10,7 +10,7 @@ sns = boto3.client('sns')
 # Define the S3 buckets and SNS topic
 bucket_1 = 'image-non-sized-123' # your-source-bucket
 bucket_2 = 'image-sized-123' # your-destination-bucket
-sns_topic_arn = 'arn:aws:sns:ap-south-1:804937851364:image-resizing-topic' # your-sns-topic
+sns_topic_arn = 'arn:aws:sns:us-east-1:877786395093:image_notifications'
 
 def lambda_handler(event, context):
     if 'Records' in event:
