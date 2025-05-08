@@ -46,7 +46,7 @@ resource "aws_lambda_function" "image_processor" {
   handler = "lambda_function.lambda_handler"
   runtime = "python3.8"
   filename = "./function/lambda_function.zip"  
-  source_code_hash = filebase64sha256(./function/lambda_function.zip")
+  source_code_hash = filebase64sha256("./function/lambda_function.zip")
 }
 
 resource "aws_s3_bucket_notification" "bucket_notification" {
