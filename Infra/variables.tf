@@ -1,3 +1,8 @@
+variable "region" {
+  description = "AWS Region"
+  type        = string
+}
+
 variable "original_bucket_name" {
   description = "Name of the bucket for original images"
   type        = string
