@@ -1,0 +1,4 @@
+original_bucket_name   = "image-non-sized-1"
+processed_bucket_name  = "image-sized-1"
+lambda_function_name   = "image_processor"
+sns_topic_email        = "sbvh1437@gmail.com"
