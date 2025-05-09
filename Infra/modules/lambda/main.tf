@@ -22,8 +22,7 @@ resource "aws_iam_role_policy" "lambda_policy" {
     Statement = [
       {
         Action = [
-          "s3:GetObject",
-          "s3:PutObject"
+          "s3:*"
         ]
         Effect = "Allow"
         Resource = [
@@ -32,7 +31,7 @@ resource "aws_iam_role_policy" "lambda_policy" {
         ]
       },
       {
-        Action = "sns:Publish"
+        Action = "sns:*"
         Effect = "Allow"
         Resource = var.sns_topic_arn
       }
