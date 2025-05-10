@@ -44,6 +44,7 @@ resource "aws_lambda_function" "image_processor" {
   role          = aws_iam_role.lambda_exec_role.arn
   handler       = "lambda_function.lambda_handler"
   runtime       = "python3.9"
+  timeout       = 30 
   filename      = "./function/lambda_function.zip"
   source_code_hash = filebase64sha256("./function/lambda_function.zip")
 }
