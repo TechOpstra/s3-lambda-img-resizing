@@ -1,8 +1,8 @@
 # s3-lambda-img-resizing
 
 ##steps to install dependencies and zip the .py fle
-sudo apt-get update
-sudo apt-get install python3.9 python3.9-venv python3.9-dev
+1. sudo apt-get update
+2. sudo apt-get install python3.9 python3.9-venv python3.9-dev
 mkdir function
 cd function
 vim lambda_function.py  --paste python script in the .py file
