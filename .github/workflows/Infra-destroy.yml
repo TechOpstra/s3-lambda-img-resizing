@@ -1,4 +1,4 @@
-name: Terraform Infra
+name: Infra create/destroy
 
 on:
   workflow_dispatch:
