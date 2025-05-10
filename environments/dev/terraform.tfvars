@@ -1,5 +1,5 @@
 region                 = "us-east-1"
-original_bucket_name   = "original-image-bucket123"
-processed_bucket_name  = "image-resized-bucket123"
+original_bucket_name   = "image-non-sized-123"
+processed_bucket_name  = "image-sized-123"
 lambda_function_name   = "image_processor"
 sns_topic_email        = "htemper2@gmail.com"
