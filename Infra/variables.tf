@@ -1,4 +1,4 @@
-variable "region" {
+variable "regio" {
   description = "AWS Region"
   type        = string
 }
