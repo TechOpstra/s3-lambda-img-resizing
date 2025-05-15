@@ -10,4 +10,4 @@ resource "aws_sns_topic_subscription" "email_subscription" {
 
 output "sns_topic_arn" {
   value = aws_sns_topic.image_notifications.arn
-
+}
