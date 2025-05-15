@@ -16,4 +16,4 @@ module "lambda_function" {
 module "sns_topic" {
   source = "./modules/sns"
   email  = var.sns_topic_email
-}
+
