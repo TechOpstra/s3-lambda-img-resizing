@@ -3,7 +3,7 @@ terraform {
 
   backend "s3" {
     bucket       = "techopsbucket123"
-    key          = "vpcec2/terraform.tfstateimageresize"
+    key          = "vpcec2/terraform.tfstateimageresize1"
     region       = "us-east-1"
     encrypt      = true
     use_lockfile = true
