@@ -1,6 +1,6 @@
 variable "lambda_function_name" {
   description = "Name of the Lambda function"
-  type = strin
+  type = string
 }
 
 variable "s3_bucket" {
