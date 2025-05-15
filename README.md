@@ -1,6 +1,6 @@
 # s3-lambda-img-resizing
 
-##steps to install dependencies and zip the .py fle
+##steps to install dependencies and zip the .py fle ##
 1. sudo apt-get update
 2. sudo apt-get install python3.9 python3.9-venv python3.9-dev
 3. mkdir function
