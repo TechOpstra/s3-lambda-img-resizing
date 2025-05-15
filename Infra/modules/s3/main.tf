@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "processed_images" {
   bucket = var.processed_bucket_name
 
   versioning {
-    enabled = true
+    enabled = tru
   }
 }
 
