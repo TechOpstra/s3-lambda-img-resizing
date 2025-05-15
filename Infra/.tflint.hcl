@@ -5,7 +5,7 @@ plugin "aws" {
   region  = "us-east-1"
 }
  
-# Format of output (valid values: default, compact, json)
+# Formate of output (valid values: default, compact, json)
 config {
   format = "compact"
 }
