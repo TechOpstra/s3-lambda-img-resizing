@@ -6,4 +6,4 @@ variable "original_bucket_name" {
 variable "processed_bucket_name" {
   description = "Name of the bucket for processed images"
   type = string
-
+}
