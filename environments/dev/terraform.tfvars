@@ -1,5 +1,5 @@
 region                 = "us-east-1"
 original_bucket_name   = "image-non-sized-123"
 processed_bucket_name  = "image-sized-123"
-lambda_function_name   = "image_processor"
+lambda_function_name   = "image_processorr"
 sns_topic_email        = "techops.buddy@gmail.com"
